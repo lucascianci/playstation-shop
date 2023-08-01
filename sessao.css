@@ -1,0 +1,78 @@
+
+body{
+    background-image: url(./Fortnite-00-4K-Main.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img {
+    width: 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-container a:hover{
+    color: #2f78f6;
+}
+
+.site-title {
+    text-decoration: none;
+    color: #164cff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+
+form {
+    border: 1px #c0c0c0;
+    background-color: rgb(91, 113, 241);
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    padding-top: 15px;
+}
+
+label {
+    width: 250px ;
+    margin-top: 13px;
+}
+
+.sessao {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    display: block;
+}
+
+#botao-iniciar {
+    font-size: 17px;
+    width: 85px;
+    height: 35px;
+    margin: 0 auto;
+    margin-right: 82px;
+    margin-top: 19px;
+    margin-bottom: 1px;
+}

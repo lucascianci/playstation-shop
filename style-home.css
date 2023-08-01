@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img {
+    width: 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-container a:hover{
+    color: #2f78f6;
+}
+
+.site-title {
+    text-decoration: none;
+    color: #616161;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+#iniciar {
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    background-color: #2f78f6;
+    border-radius: 30px;
+    margin-left: auto;
+}
+
+#iniciar:hover{
+    transition: 0.2s;
+    background-color: #0f439d;    
+}
+
+main {
+    text-align: center;
+    margin-top: 5px;
+}
+
+main ul {
+    margin-bottom: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+main ul a {
+    padding: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+main ul a:hover{
+    transition: 0.3s;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+}
+
+.banner{
+    background-image: url(fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.ps4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.ps4 > div {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.ps4 .console {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ps4 img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ps4 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #2f78f6;
+    padding-bottom: 20px
+}
+
+.ps4 p{
+    color: #616161;
+    font-size: 17px;
+}
+
+#texto-primario{
+    line-height: 1.5; 
+}
+
+#texto-secundario{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    color: #000000;
+    font-size: 13px;
+}
+
+.texto-ps4{
+    line-height: 1.5;
+}
+
+.texto-ps4 p{
+    font-size: 20px;
+}
+
+h2{
+    color: #2f78f6;
+    font-size: 25px;
+    padding-bottom: 20px;
+} 

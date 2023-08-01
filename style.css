@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./playstationfundo.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img {
+    width: 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.site-title {
+    text-decoration: none;
+    color: #616161;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.jogosps4 {
+    background-image: url(jogos-para-ps4-e-ps5.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.site-title {
+    text-decoration: none;
+    color: #616161;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+#iniciar {
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    background-color: #2f78f6;
+    border-radius: 30px;
+    margin-left: auto;
+}
+
+#iniciar:hover{
+    transition: 0.2s;
+    background-color: #0f439d;    
+}
+
+main {
+    text-align: center;
+    margin-top: 5px;
+}
+
+main ul {
+    margin-bottom: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+main ul a {
+    padding: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+main ul a:hover{
+    transition: 0.3s;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.preço{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parcela{
+    padding: 8px;
+    color: rgb(28, 189, 28);
+}
+
+
+
+.jogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    border: 1px #000000;
+    background-color: rgb(41, 4, 250);
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+label {
+    width: 250px ;
+    margin-top: 13px;
+}
+
+.sessao {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    display: block;
+}
+
+#botao-iniciar {
+    font-size: 17px;
+    width: 85px;
+    height: 35px;
+    margin: 0 auto;
+    margin-right: 82px;
+    margin-top: 19px;
+    margin-bottom: 1px;
+}
